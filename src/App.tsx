@@ -5,9 +5,6 @@ import { ThemeProvider } from "./components/context/theme.provider";
 import WeatherDashboard from "./pages/weatherDashboard";
 import Citypage from "./pages/citypage";
 import {
-  useQuery,
-  useMutation,
-  useQueryClient,
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'

@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <header className='sticky top-0 z-50 w-full bg-background/95 background-vlur py-2 supports-[backdrop-filter]:bg-background/60 '>
-            <div className='container mx-auto flex h-16  gap-5 items-center  md:justify-between justify-center md:px-4'>
+            <div className='container mx-auto flex h-16  gap-5 items-center  justify-between  px-4'>
                 <Link to="/" className='flex items-center md:gap-5  '>
                     <TiWeatherWindy className={`md:h-10 h-7 md:w-10 w-7 ${isDark ? "text-white" : "text-black"}`} />
                     <span className={`flex items-center md:text-2xl text-[12px] font-bold  ${isDark ? "text-muted-foreground" : "text-black"}`}>Atmosphere</span>

@@ -16,9 +16,9 @@ const Header = () => {
     return (
         <header className='sticky top-0 z-50 w-full bg-background/95 background-vlur py-2 supports-[backdrop-filter]:bg-background/60 '>
             <div className='container mx-auto flex h-16  items-center justify-between px-4'>
-                <Link to="/" className='flex items-center gap-5  '>
-                    <TiWeatherWindy className={`h-10 w-10 ${isDark ? "text-white" : "text-black"}`} />
-                    <span className={` font-bold flex items-center h-10 w-10 ${isDark ? "text-muted-foreground" : "text-black"}`}>Atmosphere</span>
+                <Link to="/" className='flex items-center md:gap-5 gap-1  '>
+                    <TiWeatherWindy className={` md:h-10 h-8 md:w-10 w-7 ${isDark ? "text-white" : "text-black"}`} />
+                    <span className={` md:text-[30px] text-[15px] font-bold flex items-center h-10 w-10 ${isDark ? "text-muted-foreground" : "text-black"}`}>Atmosphere</span>
                 </Link>
 
                 <div className='flex gap-4'>

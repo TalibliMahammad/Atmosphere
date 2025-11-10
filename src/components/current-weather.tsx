@@ -14,8 +14,7 @@ const CurrentWeather: React.FC<CurrentWeatherProps> = ({ data, locationName }) =
   const {
     weather: [currentWeather],
     main: { temp, feels_like, temp_min, temp_max, pressure, humidity },
-    wind: { speed, deg },
-    name, dt
+    wind: { speed, deg }
   } = data;
 
   const formatTemp = (temp: number) => `${Math.round(temp)}°`;

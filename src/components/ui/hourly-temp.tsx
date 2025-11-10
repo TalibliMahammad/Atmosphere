@@ -1,8 +1,8 @@
 import type { ForecastData } from '@/api/types'
-import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from './card';
 import { ResponsiveContainer, Line, LineChart, XAxis, YAxis, Tooltip } from 'recharts'
-import { format, formatDate } from 'date-fns';
+import { formatDate } from 'date-fns';
+
 
 
 interface HourlyTempratureProps {

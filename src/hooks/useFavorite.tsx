@@ -1,6 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useLocalStorage } from "./useLocalStorage";
-import { set } from "date-fns";
 
 
 interface FavoriteCity {

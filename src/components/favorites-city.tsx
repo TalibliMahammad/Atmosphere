@@ -1,6 +1,5 @@
 import { useFavorite } from '@/hooks/useFavorite'
 import { useWeather } from '@/hooks/useWeather'
-import { ScrollArea, ScrollAreaCorner } from '@radix-ui/react-scroll-area'
 import React, { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button } from './ui/button'

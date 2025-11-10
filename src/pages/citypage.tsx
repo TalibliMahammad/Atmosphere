@@ -1,15 +1,13 @@
-import type { WeatherData } from '@/api/types';
+
 import CurrentWeather from '@/components/current-weather';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Button } from '@/components/ui/button';
 import FavoriteButton from '@/components/ui/favorite-button';
 import HourlyTemprature from '@/components/ui/hourly-temp';
 import WeatherSkeleton from '@/components/ui/loadSkelet';
 import WeatherDetails from '@/components/weatherdetail';
 import WeatherForecast from '@/components/weatherforecast';
 import { useForecastQuery, useWeather, } from '@/hooks/useWeather';
-import { AlertCircleIcon, AlertTriangle, RefreshCw } from 'lucide-react';
-import React from 'react'
+import { AlertTriangle } from 'lucide-react';
 import { useParams, useSearchParams } from 'react-router-dom';
 
 const Citypage = () => {

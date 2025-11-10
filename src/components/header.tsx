@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import { CiLight } from "react-icons/ci";
 import { FaMoon } from "react-icons/fa";
 import { TiWeatherWindy } from "react-icons/ti";
